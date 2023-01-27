@@ -6,7 +6,7 @@ const SongDetail=(props)=>{
    }
    return( 
    <div>
-   <h3>Details for :</h3>
+   <h3>Details x for :</h3>
    <p>
     Title: {props.song.title}
     <br/>
