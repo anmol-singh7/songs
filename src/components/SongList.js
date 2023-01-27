@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { selectSong } from '../actions';
 
+function abc() {
+    console.log("Hello");
+}
+
 class SongList extends Component {
     render() {
         // console.log(this.props.songs);
